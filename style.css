@@ -3,12 +3,13 @@ body{
     background: maroon;
     margin:  0px;
     font-family: "Cormorant Garamond", sans-serif;
+    margin-bottom: 100px;
 }
 
 header{
    border-bottom: solid 2px orange;
    padding: 20px;
-   font-size: 31px;
+   font-size: 30px;
    color: burlywood;
 }
 
@@ -22,10 +23,15 @@ header{
 
 .chamada-texto{
     margin-right: 5%;
+
 }
-img {
-    height: 200px;
+h1{
+    font-size: 40px;
 }
+p{
+    font-size: 20px;
+}
+
 .categoria-videos{
     display: flex;
     overflow-x: auto;
@@ -34,4 +40,17 @@ img {
 .categoria{
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos img{
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid burlywood;
+}
+
+.categoria h2{
+    color: coral;
 }
